@@ -1,0 +1,23 @@
+ext {
+    bintrayRepo = ''            // Repo name in bintray dashboard
+    bintrayName = ''            // Package name of the bintray repo
+
+    publishedGroupId = ''       // The ID you want to be used in the implementation line
+    libraryName = ''            // The module of the library
+    artifact = ''               // The artifact you want to see in implementation line
+
+    libraryDescription = ''     // Description of library
+
+    siteUrl = ' '               // Git Repo Site Url (without .git)
+    gitUrl = ''                 // Git repo VCS url (with .git)
+
+    libraryVersion = ''         // Library version
+
+    developerId = ''            // Bintray username
+    developerName = ''          // Developer's name
+    developerEmail = ''         // Developer's email
+
+   licenseName = 'The Apache Software License, Version 2.0'  // for example, The Apache Software License, Version 2.0
+   licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'   // For example, http://www.apache.org/licenses/LICENSE-2.0.txt
+   allLicenses = ["Apache-2.0"]    // Array of licenses, for example, ["Apache-2.0"]
+}
