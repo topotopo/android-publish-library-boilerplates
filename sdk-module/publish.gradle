@@ -7,7 +7,7 @@ group = publishedGroupId    //Maven group id for the artifact
 
 install {
     repositories.mavenInstaller {
-        // This generates POM.xml with proper parameters
+        // This generates POM.xml with the parameters set in lib.gradle
         pom {
             project {
                 packaging 'aar'
@@ -82,7 +82,7 @@ bintray {
         publicDownloadNumbers = true
         version {
             desc = libraryDescription
-            // Uncomment 4 lines below to enable gpg auto signing
+            // Uncomment 4 lines to enable gpg auto signing
             //gpg {
             //    sign = true //Determines whether to GPG sign the files. The default is false
             //    passphrase = properties.getProperty("bintray.gpg.password")

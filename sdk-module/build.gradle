@@ -1,0 +1,16 @@
+/**
+ * This is a sample build.gradle file showing only
+ * the significant code to publish a library.
+ */
+
+apply plugin: 'com.android.library' //1. Apply library plugin
+
+android {
+    //Your configuration here
+}
+
+dependencies {
+    //Your sdk dependencies
+}
+
+apply from: 'publish.gradle' //2. Apply publish.gradle
